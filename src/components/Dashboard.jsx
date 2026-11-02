@@ -25,7 +25,7 @@ const Dashboard = () => {
 
   useEffect(() => {
     fetchingNumbers();
-
+    console.log("Fetching Numbers");
   }, [])
  
   return (
